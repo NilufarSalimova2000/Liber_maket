@@ -1,0 +1,16 @@
+.header_top {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header_bottom {
+    padding: 9px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

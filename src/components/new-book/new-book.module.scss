@@ -1,0 +1,63 @@
+.img {
+    margin-bottom: 18px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #11142d;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.cost {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cost::before{
+    content: "";
+    background-image: url("../../assets/star.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.icons::before{
+    content: "";
+    background-image: url("../../assets/headphone-line.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.icons::after{
+    content: "";
+    background-image: url("../../assets/book-mark-line.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.icon_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

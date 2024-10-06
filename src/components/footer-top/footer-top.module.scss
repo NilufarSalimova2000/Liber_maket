@@ -1,0 +1,28 @@
+.footer_top {
+    padding-top: 31px;
+    padding-bottom: 50px;
+    background: var(--primary-soft);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #11142d;
+    margin-bottom: 14px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 18px;
+    color: #11142d;
+    margin-bottom: 18px;
+}
+
+.img {
+    margin-bottom: 16px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,55 @@
+.select {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--primary);
+    border-radius: 14px;
+    background-color: var(--primary-soft);
+    padding: 9px 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.select::before {
+    content: "";
+    background-image: url("../../assets/flag.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+}
+
+.select::after {
+    content: "";
+    background-image: url("../../assets/select_icon2.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.regist {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white);
+    border-radius: 14px;
+    padding: 7px 24px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.regist::before {
+    content: "";
+    background-image: url("../../assets/user_icon.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+}

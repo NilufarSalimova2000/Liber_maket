@@ -1,0 +1,126 @@
+.hero {
+    padding-top: 16px;
+    padding-bottom: 56px;
+}
+
+.block {
+    border-radius: 12px;
+    width: 1005px;
+    background: var(--primary-soft);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text);
+    text-align: center;
+}
+
+.content {
+    padding-top: 33px;
+}
+
+.list {
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.block2 {
+    border-radius: 12px;
+    width: 261px;
+    background: var(--primary);
+    background-image: url("../../assets/hero_bg.svg");
+    background-repeat: no-repeat;
+    padding: 32px 24px 38px 22px;
+}
+
+.block_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--white);
+    margin-bottom: 77px;
+}
+
+.hero_btn {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text);
+    border-radius: 14px;
+    padding: 7px 24px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero_btn::before {
+    content: "";
+    background-image: url("../../assets/love.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rukn {
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+.rukn_title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    color: var(--text);
+    margin-bottom: 32px;
+}
+
+.rukn_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new_book {
+    padding-bottom: 64px;
+}
+
+.new_book_title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    color: var(--text);
+    margin-bottom: 32px;
+}
+
+.new_book_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
