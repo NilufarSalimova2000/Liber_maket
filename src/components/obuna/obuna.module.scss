@@ -5,6 +5,7 @@
     background-image: url("../../assets/obuna_bg.svg");
     background-repeat: no-repeat;
     padding: 32px 0 80px 32px;
+    margin-bottom: 24px;
 }
 
 .title {
@@ -13,4 +14,84 @@
     line-height: 123%;
     color: var(--white);
     width: 331px;
+}
+
+.block2 {
+    border-radius: 4px;
+    width: 966px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background-color: var(--white);
+    padding: 32px 51px 131px 32px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: #11142d;
+    margin-bottom: 30px;
+}
+
+.img {
+    margin-bottom: 24px;
+    display: block;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #11142d;
+}
+
+.content {
+    width: 368px;
+    background-color: var(--gray);
+    padding: 16px;
+}
+
+.info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+}
+
+.time {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+}
+
+.des {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.prise {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--primary);
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    border-radius: 14px;
+    padding: 7px 8px;
+    width: 368px;
+    background-color: var(--primary);
+    text-align: center;
+    margin-top: 34px;
 }
